@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Local Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="head">
+      <div class="well container-fluid">
+        <h1 class="text-center">Local Weather App</h1>
+        <p class="text-center">Made by Nouman Saif</p>
+      </div>
+    </div>
+    <div id="body" class="text-center">
+      <div>
+        <span id="weather"></span>
+        <span id="temp"></span>
+      </div>
+    </div>
+    <div class="footer">
+      <button onClick="getLocation()" class="btn btn-lg btn-danger">Get Weather</button>
+      <button onClick="changeTemp()" class="btn btn-lg btn-danger">Change Temp:</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
